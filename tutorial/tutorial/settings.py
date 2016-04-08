@@ -14,6 +14,10 @@ BOT_NAME = 'tutorial'
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
 
+DEFAULT_ITEM_CLASS = 'tutorial.items.BimtoItem'
+
+#ITEM_PIPELINES = {'dirbot.pipelines.FilterWordsPipeline': 1}
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tutorial (+http://www.yourdomain.com)'
